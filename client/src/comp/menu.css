@@ -1,0 +1,19 @@
+.menubg{
+    height: auto;  
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    
+} 
+.menucard{
+    height: 260px; 
+    width: 320px;
+    background-color: rgb(196, 196, 196); 
+    margin: 50px; 
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+}
