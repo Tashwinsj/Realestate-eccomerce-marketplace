@@ -1,0 +1,53 @@
+.cards{
+    height: 340px; 
+    width: 360px; 
+    background-color: white;  
+    margin: 20px; 
+    border-radius: 10px;   
+    overflow: hidden;
+    box-shadow: 2px 5px 10px #b3b3b3; 
+    font-family:Arial, Helvetica, sans-serif
+
+} 
+.mpic{
+height: 190px; 
+width: 420px; 
+
+ 
+ 
+}  
+.price{
+    margin: 10px; 
+    font-size: 27px;
+}  
+.desc{
+    margin: 10px; 
+    font-weight: 100; 
+    
+} 
+.comp{
+    margin: 10px; 
+    opacity: 0.5;
+} 
+.tager { 
+    position : absolute;
+    z-index: 1  ; 
+    margin: 8px ; 
+    background-color: black ; 
+    height: 22px ; 
+    border-radius: 10px ; 
+    padding: 7px; 
+    padding-bottom: 2px;
+    opacity: 0.5; 
+    color: white; 
+    font-size: 14px; 
+ 
+}
+.like{
+    position : absolute;
+    z-index: 2 ;   
+    margin-left: 310px; 
+    margin-top: 10px; 
+    font-size: 20px;
+    
+}

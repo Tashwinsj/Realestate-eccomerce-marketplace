@@ -3,18 +3,28 @@
     background-color: rgb(198, 174, 174); 
     display: flex; 
     align-items: center;
-    justify-content: center;
-} 
+    justify-content: center; 
+    background-image: url("/Users/tashwinsj/Desktop/devp/p1 real estate/client/src/assets/living.jpg");
+     background-size: cover;
+    background-repeat: no-repeat;  
+
+ 
+}  
 .sbox{
     border:  none;
-    width: 600px; 
+    width: 550px; 
     height: 60px;  
-    border-radius: 10px;
+    border-radius: 10px; 
+    box-shadow: 2px 4px 4px rgb(77, 77, 77); 
+    font-size: 24px; 
+    padding-left: 20px;
 } 
 .sb{
     height: 60px;
     width: 60px; 
     margin: 10px; 
     border: none;
-    border-radius: 10px;  
+    border-radius: 10px;   
+    box-shadow: 2px 4px 4px rgb(77, 77, 77);
+    font-size: 24px; 
 }
