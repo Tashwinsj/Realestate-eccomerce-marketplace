@@ -1,32 +1,125 @@
 .ddbody{
-    height: 60px;
-    background-color: rgb(159, 159, 159);
+    height: 8vh;
+    background-color: rgb(47, 47, 47);
     display: flex  ; 
     flex-direction: row;  
     align-items: center; 
     justify-content: left;
 } 
-.blocks{
+.b1 {
+   position: absolute ; 
+   top : 78px ; 
+   left : 260px; 
    margin: 20px; 
    background-color: white; 
    height: 30px; 
    width: 100px; 
    border-radius: 4px; 
-   display: flex  ; 
-    flex-direction: row;  
+    display: flex; 
     align-items: center; 
     justify-content: center;
-} 
+}  
+.b2 {
+    position: absolute ; 
+    top : 78px ; 
+    left : 380px; 
+    margin: 20px; 
+    background-color: white; 
+    height: 30px; 
+    width: 100px; 
+    border-radius: 4px; 
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+ }
+ .b3 {
+    position: absolute ; 
+    top : 78px ; 
+    left : 500px; 
+    margin: 20px; 
+    background-color: white; 
+    height: 30px; 
+    width: 100px; 
+    border-radius: 4px; 
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+ }
+ .b4 {
+    position: absolute ; 
+    top : 78px ; 
+    left : 620px; 
+    margin: 20px; 
+    background-color: white; 
+    height: 30px; 
+    width: 100px; 
+    border-radius: 4px; 
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+ }
+ .b5 {
+    position: absolute ; 
+    top : 78px ; 
+    left : 740px; 
+    margin: 20px; 
+    background-color: white; 
+    height: 30px; 
+    width: 100px; 
+    border-radius: 4px; 
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+ }
+
 .ser{
     border:  none  ;  
     margin: 20px;
     width: 250px  ; 
     height: 30px ; 
-    border-radius: 5px;
+    border-radius: 5px; 
 }  
 .sbtn{
+    position: absolute ; 
+    top : 98px ; 
+    left : 880px; 
     border:  none;
     height: 30px; 
     width: 90px; 
-    border-radius: 5px;
+    border-radius: 5px; 
+    cursor:  pointer ;
+}
+.doi{
+    background-color: yellow; 
+    position: absolute ; 
+    left: 350px; 
+    border: none;
+}
+.doi2{
+    background-color: yellow; 
+    position: absolute ; 
+    left: 460px; 
+    border: none; 
+    z-index: 1 ; 
+}
+.doi3{
+    background-color: yellow; 
+    position: absolute ; 
+    left: 590px; 
+    border: none; 
+    z-index: 99 ; 
+}
+.doi4{
+    background-color: yellow; 
+    position: absolute ; 
+    left: 700px; 
+    border: none; 
+    z-index: 99 ; 
+}
+.doi5{
+    background-color: yellow; 
+    position: absolute ; 
+    left: 820px; 
+    border: none; 
+    z-index: 99 ; 
 }

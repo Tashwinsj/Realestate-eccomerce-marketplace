@@ -1,4 +1,47 @@
+.whole{
+    display: flex; 
+    flex-direction:row  ; 
+}
 .buybody{
-    margin: 50px;
-    display: flex
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2196F3;
+  padding: 10px;
+    background-color: rgb(0, 0, 0); 
+    height: 79vh ; 
+    box-shadow: 0 0 20px; 
+    width:55vw ; 
+    overflow-x: hidden; 
+    align-items: center; 
+    justify-content: center;
+}
+.mapsbody{
+    background-color: rgb(197, 197, 197);  
+    width: 50vw ; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+ 
+} 
+.dropbox{
+    position : absolute ; 
+    top : 30px ;  
+    left: 0.5px ;
+    height: 100px; 
+    width: 100px;
+    background-color: white; 
+    margin: 10px; 
+    margin-left: 0 ; 
+    border-radius: 10px; 
+    padding: 2px; 
+    box-shadow: 0 0 5px ;
+    animation-name: drop ; 
+    animation-duration: 0.5s;  
+    overflow: hidden; 
+    z-index: 999 ; 
+
+}
+@keyframes drop{
+    from {height: 0px;} 
+    to {height: 100px;}
 }

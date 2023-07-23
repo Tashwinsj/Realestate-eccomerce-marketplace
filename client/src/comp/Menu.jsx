@@ -1,12 +1,15 @@
 import React from "react";
 import "./menu.css"
+import { Outlet, Link } from "react-router-dom"; 
+import buyimg from "../assets/buy.jpg"
 export default function Menu() {
     return (
         <> 
           <div className="menubg">
-            <div className="menucard">Buy a home
+            <div className="menucard">
+              Buy a home
             <p className="blah">Find your place with an immersive photo experience and the most listings, including things you won’t find anywhere else</p>
-            <button className="mbtn" >Buy homes</button>
+            <Link to="/buy"><button className="mbtn" >Buy homes</button> </Link>
             </div> 
          
             <div className="menucard">Sell a home 

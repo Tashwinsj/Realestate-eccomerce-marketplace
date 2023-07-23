@@ -1,7 +1,8 @@
 .srch{
     height: 300px ; 
     background-color: rgb(198, 174, 174); 
-    display: flex; 
+    display: flex;  
+    flex-direction: column;
     align-items: center;
     justify-content: center; 
     background-image: url("/Users/tashwinsj/Desktop/devp/p1 real estate/client/src/assets/living.jpg");
@@ -9,7 +10,16 @@
     background-repeat: no-repeat;  
 
  
-}  
+}   
+.tagline{
+    font-size: 30px; 
+    font-family: 'Bagel Fat One', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Rubik', sans-serif; 
+color : black ;   
+font-weight: 600;
+text-shadow: 5px 5px 10px ;
+}
 .sbox{
     border:  none;
     width: 550px; 

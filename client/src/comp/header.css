@@ -1,6 +1,8 @@
-.head{
-    height: 100px ; 
-    background-color: grey ; 
+.head{ 
+    position : sticky;  
+    top : 0 ; 
+    height: 10vh ; 
+    background-color: rgb(0, 0, 0) ; 
     margin: 0 ; 
     padding: 0; 
     display: flex; 
@@ -10,9 +12,31 @@
 } 
 .headcomp{
     margin: 20px;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Bagel Fat One', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Rubik', sans-serif; 
+color : white ; 
 } 
 .logo{
     margin-left: 190px; 
     margin-right: 190px; 
-    font-size: 50px; 
-} 
+    font-size: 50px;  
+    color : #cea829  ;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Bagel Fat One', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Rubik', sans-serif;
+    
+    
+    
+}  
+a{
+    color: white; 
+    text-decoration: none;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Bagel Fat One', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Rubik', sans-serif;
+}
+ 

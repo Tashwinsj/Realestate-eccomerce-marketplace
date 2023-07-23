@@ -1,20 +1,23 @@
 import React from 'react'
 import './App.css' 
 import Header from './comp/Header'  
-import Dropdown from './comp/Dropdown' 
+
 import Buy from './comp/Buy' 
 import Search from './comp/Search'
 import Menu from './comp/Menu'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
    
   return (
-    <> 
-      <Header/> 
-      <Search/> 
-      <Menu/>
-      <Dropdown/>  
-      <Buy/>
+    <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<><Header /><Search/><Menu/></>}>
+        </Route> 
+        <Route path ="/buy" element={<><Header /><Buy/></>} ></Route>
+      </Routes>
+    </BrowserRouter>
     </>
   )
 }
