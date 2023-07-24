@@ -1,18 +1,177 @@
-const userlist =[
-    {
-        name : "tash" ,
-        email : "tash@great.com" ,
-        age : 21
-    },
-    {
-        name : "bosh" ,
-        email : "bpsj@great.com" ,
-        age : 21
-    },
-    {
-        name : "dayimbor" ,
-        email : "great@great.com" ,
-        age : 21
-    }
+const homelist =[
+       
+    { 
+        photo : "https://photos.zillowstatic.com/fp/b6ea5473ce9b04ea74255442049c8853-p_e.webp" ,
+        price : "1,310,000"  ,  
+        p : 1310000, 
+        bds : 4 ,
+        ba : 3 ,
+        area : 2745 ,
+        status : "House for sale" ,
+        address : "527 Date St, Minnesota Lake, MN 56068" ,
+        company : "TRUE REAL ESTATE" ,  
+        tag : true  , 
+        ago  : "9 hours" , 
+        ty  : "hous"
+      } ,{ 
+        photo : "https://photos.zillowstatic.com/fp/a793837cb8dc2a0fd41d56aff254c285-p_e.webp" ,
+        price : "1,095,000"  ,  
+        p : 1095000,
+        bds : 5 ,
+        ba : 4 ,
+        area : 4748 ,
+        status : "House for sale" ,
+        address : "2215 Saint Clair Ave, Saint Paul, MN 55105" ,
+        company : "MLS ID #6402516, EDINA REALTY, INC." , 
+        tag : true , 
+        ago : "20 hours", 
+        ty  : "hous"
+      } 
+      ,
+      { 
+        photo : "https://photos.zillowstatic.com/fp/c61481d577753dc32b7caad1400421bf-p_e.webp" ,
+        price : "4,599,000"  ,  
+        p : 4599000 ,
+        bds : 4 ,
+        ba : 5 ,
+        area : 5465 ,
+        status : "House for sale" ,
+        address : "2388 W Lake Of The Isles Pkwy, Minneapolis, MN 55405" ,
+        company : "MLS ID #6402516, EDINA REALTY, INC." ,  
+        tag : true  , 
+        ago  : "9 hours", 
+        ty  : "hous"
+      } ,
+      { 
+        photo : "https://photos.zillowstatic.com/fp/f9756bc8180f5d031dc4da6740fa626d-p_e.webp" ,
+        price : "1,500,000"  ,  
+        p  : 1500000, 
+        bds : 4 ,
+        ba : 4 ,
+        area : 4272 ,
+        status : "House for sale" ,
+        address : "4745 Girard Ave S, Minneapolis, MN 55419" ,
+        company : "MLS#: 6386083" ,  
+        tag : true  , 
+        ago  : "32 hours", 
+        ty  : "hous"
+      } ,
+      { 
+        photo : "https://photos.zillowstatic.com/fp/fe744e27ff6764d4f724dfbd2caa0592-p_e.webp" ,
+        price : "1,395,000"  ,  
+        p : 1395000 , 
+        bds : 5 ,
+        ba : 7 ,
+        area : 5626 ,
+        status : "House for sale" ,
+        address : "11309 Ridgemount Ave W, Minnetonka, MN 55305" ,
+        company : "MLS#: 6386083" ,  
+        tag : true  , 
+        ago  : "32 hours", 
+        ty  : "hous"
+      } ,
+      { 
+        photo : "https://photos.zillowstatic.com/fp/cb88b28e1cd923909bc955ea40813768-p_e.webp" ,
+        price : "1,250,000"  ,  
+        p : 1250000 ,
+        bds :4 ,
+        ba : 4,
+        area : 3902 ,
+        status : "House for sale" ,
+        address : "3503 Cedar Lake Ave, Minneapolis, MN 55416" ,
+        company : "MLS#: 6386083" ,  
+        tag : true  , 
+        ago  : "32 hours", 
+        ty  : "hous"
+      } ,
+      { 
+        photo : "https://photos.zillowstatic.com/fp/85dd3d73c44ead0b9479a4e9f9c8b414-p_e.webp" ,
+        price : "1,650,000"  ,  
+        p : 1650000 ,
+        bds :4 ,
+        ba : 4,
+        area : 2501 ,
+        status : "Sold" ,
+        address : "1335 Beechwood Pl, Saint Paul, MN 55116" ,
+        company : "MLS#: 6386083" ,  
+        tag : true  , 
+        ago  : "32 hours", 
+        ty  : "hous"
+      } ,
+      { 
+        photo : "https://photos.zillowstatic.com/fp/12eca3650bfa9d71fa4ba4231eb447ec-p_e.webp" ,
+        price : "1,450,000"  ,  
+        p : 1450000 , 
+        bds :4 ,
+        ba : 4,
+        area : 4306 ,
+        status : "House for sale" ,
+        address : "4512 Beard Ave S, Minneapolis, MN 55410" ,
+        company : "MLS#: 6386083" ,  
+        tag : true  , 
+        ago  : "32 hours", 
+        ty  : "hous"
+      } ,
+      { 
+        photo : "https://photos.zillowstatic.com/fp/ea0fdc4e1080afc317ad8bf8ac325d67-p_e.webp" ,
+        price : "1,485,000"  ,  
+        p : 1485000 ,
+        bds : 5 ,
+        ba : 6,
+        area : 5402 ,
+        status : "House for sale" ,
+        address : "341 Westwood Dr N, Golden Valley, MN 55422" ,
+        company : "MLS#: 6386083" ,  
+        tag : true  , 
+        ago  : "2 hours", 
+        ty  : "hous"
+      } ,
+      { 
+        photo : "https://photos.zillowstatic.com/fp/8ed01ab99c5327868850a0bec6391b5d-p_e.webp" ,
+        price : "194,000"  ,  
+        p : 194000 ,
+        bds : 2 ,
+        ba : 2,
+        area : 1210 ,
+        status : "House for sale" ,
+        address : "4385 Trenton Ln N APT 207, Plymouth, MN 55442" ,
+        company : "MLS#: 6386083" ,  
+        tag : true  , 
+        ago  : "7 days", 
+        ty  : "cond"
+      } ,
+      { 
+        photo : "https://photos.zillowstatic.com/fp/ba5376e24d8c9f1d2210a487b55f8725-p_e.webp" ,
+        price : "165,000"  ,  
+        p : 165000 ,
+        bds : 2 ,
+        ba : 1,
+        area : 1096 ,
+        status : "House for sale" ,
+        address : "1214 Lowry Ave N APT 203, Minneapolis, MN 55411" ,
+        company : "MLS#: 6386083" ,  
+        tag : true  , 
+        ago  : "7 days", 
+        ty  : "cond"
+      } ,
+      { 
+        photo : "https://photos.zillowstatic.com/fp/66df7656c44b157299a0176bb3b2d25a-p_e.webp" ,
+        price : "1,470"  ,  
+        p : 1500000 ,
+        bds : 2 ,
+        ba : 1,
+        area : 1096 ,
+        status : "House for Rent" ,
+        address : "5100 W 82nd St, Bloomington, MN 55437" ,
+        company : "MLS#: 6386083" ,  
+        tag : true  , 
+        ago  : "7 days", 
+        ty  : "aptm"
+      } ,
+
+
+
+
+
 ]  
-module.exports = {userlist} 
+module.exports = {homelist} 

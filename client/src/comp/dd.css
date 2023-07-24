@@ -17,20 +17,22 @@
    border-radius: 4px; 
     display: flex; 
     align-items: center; 
-    justify-content: center;
+    justify-content: left; 
+    padding-left: 20px;
 }  
 .b2 {
     position: absolute ; 
     top : 78px ; 
-    left : 380px; 
+    left : 390px; 
     margin: 20px; 
     background-color: white; 
     height: 30px; 
-    width: 100px; 
+    width: 80px; 
     border-radius: 4px; 
      display: flex; 
      align-items: center; 
-     justify-content: center;
+     justify-content: left;
+     padding-left: 20px;
  }
  .b3 {
     position: absolute ; 
@@ -39,37 +41,40 @@
     margin: 20px; 
     background-color: white; 
     height: 30px; 
-    width: 100px; 
+    width: 140px; 
     border-radius: 4px; 
      display: flex; 
      align-items: center; 
-     justify-content: center;
+     justify-content: left; 
+     padding-left: 10px;
  }
  .b4 {
     position: absolute ; 
     top : 78px ; 
-    left : 620px; 
+    left : 660px; 
     margin: 20px; 
     background-color: white; 
     height: 30px; 
-    width: 100px; 
+    width: 130px; 
     border-radius: 4px; 
      display: flex; 
      align-items: center; 
-     justify-content: center;
+     justify-content: left ; 
+     padding-left: 10px;
  }
  .b5 {
     position: absolute ; 
     top : 78px ; 
-    left : 740px; 
+    left : 810px; 
     margin: 20px; 
     background-color: white; 
     height: 30px; 
-    width: 100px; 
+    width: 90px; 
     border-radius: 4px; 
      display: flex; 
      align-items: center; 
-     justify-content: center;
+     justify-content: left ; 
+     padding-left: 10px;
  }
 
 .ser{
@@ -82,7 +87,7 @@
 .sbtn{
     position: absolute ; 
     top : 98px ; 
-    left : 880px; 
+    left : 950px; 
     border:  none;
     height: 30px; 
     width: 90px; 
@@ -90,36 +95,36 @@
     cursor:  pointer ;
 }
 .doi{
-    background-color: yellow; 
+    border: none; 
+    width: 30px;
     position: absolute ; 
-    left: 350px; 
-    border: none;
+    left: 360px; 
 }
 .doi2{
-    background-color: yellow; 
+    border: none ; 
+    width: 30px;
     position: absolute ; 
-    left: 460px; 
-    border: none; 
+    left: 470px; 
     z-index: 1 ; 
 }
 .doi3{
-    background-color: yellow; 
+   border: none ; 
+    width: 30px;
     position: absolute ; 
-    left: 590px; 
-    border: none; 
+    left: 630px; 
     z-index: 99 ; 
 }
 .doi4{
-    background-color: yellow; 
+    border: none ; 
+    width: 30px;
     position: absolute ; 
-    left: 700px; 
-    border: none; 
+    left: 780px;
     z-index: 99 ; 
 }
 .doi5{
-    background-color: yellow; 
+    border: none ; 
+    width: 30px;
     position: absolute ; 
-    left: 820px; 
-    border: none; 
+    left: 890px; 
     z-index: 99 ; 
 }

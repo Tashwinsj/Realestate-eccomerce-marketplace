@@ -5,21 +5,43 @@ import Header from './comp/Header'
 import Buy from './comp/Buy' 
 import Search from './comp/Search'
 import Menu from './comp/Menu'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom"; 
+import {ApolloClient , InMemoryCache , ApolloProvider ,useQuery ,gql} from '@apollo/client' 
+import DispData from './DispData'
 
-function App() {
+ 
+function App() { 
+  
+  const client = new ApolloClient({
+    cache: new InMemoryCache(),
+    uri: "http://localhost:4000/graphql",
+  });
    
-  return (
-    <>
+  return ( 
+    <ApolloProvider client={client}>
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<><Header /><Search/><Menu/></>}>
-        </Route> 
-        <Route path ="/buy" element={<><Header /><Buy/></>} ></Route>
-      </Routes>
-    </BrowserRouter>
-    </>
+    <Routes>
+      <Route path="/" element={<><Header /><Search/><Menu/></>}>
+      </Route> 
+      <Route path ="/buy" element={<><Header /><Buy/></>} ></Route>
+    </Routes>
+    </BrowserRouter> 
+    </ApolloProvider>
   )
 }
 
 export default App
+{/*  
+    <div className="App">
+      <DispData/>
+    </div>
+  </ApolloProvider> */}
+
+  {/* 
+<BrowserRouter>
+    <Routes>
+      <Route path="/" element={<><Header /><Search/><Menu/></>}>
+      </Route> 
+      <Route path ="/buy" element={<><Header /><Buy/></>} ></Route>
+    </Routes>
+    </BrowserRouter>  */}

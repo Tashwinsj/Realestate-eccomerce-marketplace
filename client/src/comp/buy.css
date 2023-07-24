@@ -29,7 +29,6 @@
     left: 0.5px ;
     height: 100px; 
     width: 100px;
-    background-color: white; 
     margin: 10px; 
     margin-left: 0 ; 
     border-radius: 10px; 
@@ -38,8 +37,26 @@
     animation-name: drop ; 
     animation-duration: 0.5s;  
     overflow: hidden; 
-    z-index: 999 ; 
+    background-color: white;
+    z-index: 999 ;  
+    color: black;
+    font-family: 'Architects Daughter', cursive;
+font-family: 'Bagel Fat One', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Rubik', sans-serif;  
+    font-size: 14px;
 
+
+} 
+
+.selector{
+    margin: 3px;    
+    margin-bottom: -10px; 
+    border-radius: 3px; 
+    padding: 0;
+} 
+.selector:hover{
+    background-color: rgb(179, 179, 179); 
 }
 @keyframes drop{
     from {height: 0px;} 

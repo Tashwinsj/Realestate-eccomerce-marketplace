@@ -2,22 +2,23 @@ const {gql} =require("apollo-server")
 
 
 const typeDefs = gql`
-    type User {
-        name : String!  
-        email : String! 
-        age : Int! 
-    } 
+    type home {
+        photo : String
+        price : String
+        bds : Int
+        ba :Int
+        area : Int
+        status : String
+        address : String
+        company : String
+        tag : Boolean  
+        ago : String
+    }
     type Query {
-        users : [User!]!
-    }   
-    input userinp {
-        name : String! 
-        email : String! 
-        age : Int! 
-    }
-    type Mutation {
-        createuser(input : userinp! ) : User
-    }
+        homes : [home!]! 
+        arghome( fs : Int! , pr :Int! , bb : Int! , ht : Int! , mr: Int! ) : [home!]!
+    }    
+    
 
 ` 
 module.exports = {typeDefs}
