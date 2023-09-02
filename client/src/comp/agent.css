@@ -1,22 +1,28 @@
 .agent{
-    height: 1000px; 
+     
     background-color: black; 
     display: flex; 
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center; 
     align-items: center;
+    padding-bottom: 120px;
 
+}
+.rower{
+    display: flex;
+    flex-direction: row; 
 }
 .catalogue{
     display: flex; 
-    flex-direction: row;
+    flex-direction: column;
 }
 .agentname{
     color: white; 
     margin-left: 120px; 
-    padding-top: 100px;
+    padding-top: 100px; 
+    margin-bottom: 40px;
     font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif; 
-    font-size: 40px;
+    font-size: 30px;
     display: flex; 
     flex-direction: column; 
 
@@ -29,12 +35,20 @@
     margin-top: 100px; 
     border-radius: 50%;
     border: 0.5px solid rgb(238,183,93); 
-    color: white;
     font-size: 24px;
     color: rgb(238,183,93); 
+    transition: all 0.5s ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     
 } 
+.hlink:hover {
+    height: 60px; 
+    width: 60px ;
+    transform: rotate(-45deg);
+}
 .spe{
     margin: 10px;
     margin-left: 15px;
@@ -46,6 +60,7 @@
 }
 .catphoto{
     height: 400px; 
+    width: 740px;
     margin-left: 140px;
     margin-top: 60px; 
     transition: all 0.5s;
@@ -54,11 +69,12 @@
     margin-left: 120px; 
     margin-top: 50px;
     height: 440px;
+    width: 820px;
 }
 .brou{
     color: white; 
-    margin-top: -300px;
-    margin-left: -530px; 
+     
+    margin-left: 120px;
     width: 300px; 
     font-family:'Courier New', Courier, monospace; 
     font-size: 13px;
@@ -67,8 +83,7 @@
 .goldlink{
     margin-left: 120px; 
     margin-top: 20px; 
-
-}
-.inlink{
     color: rgb(238,183,93);
 }
+ 
+    

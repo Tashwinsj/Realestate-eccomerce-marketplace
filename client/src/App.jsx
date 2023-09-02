@@ -7,7 +7,7 @@ import Menu from './comp/Menu'
 import Agent from './comp/Agent'
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 import {ApolloClient , InMemoryCache , ApolloProvider ,useQuery ,gql} from '@apollo/client' 
-import DispData from './DispData'
+
 
  
 function App() { 

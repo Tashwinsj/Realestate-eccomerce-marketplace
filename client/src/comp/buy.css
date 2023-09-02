@@ -18,11 +18,18 @@
 .mapsbody{
     background-color: rgb(197, 197, 197);  
     width: 50vw ; 
+    height: 82vh;
     display: flex; 
     justify-content: center; 
     align-items: center;
- 
+    overflow-x: scroll;
+
 } 
+.mapsimg{
+    height: 1000px;
+
+    
+}
 .dropbox{
     position : absolute ; 
     top : 30px ;  

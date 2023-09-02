@@ -3,7 +3,8 @@ import "./buy.css"
 import Card from "./Card"; 
 import "./dd.css" 
 import { useState } from "react";
-import { useQuery, useLazyQuery, gql, useMutation } from "@apollo/client";
+import { useQuery, useLazyQuery, gql, useMutation } from "@apollo/client"; 
+import maps from "../assets/maps.png"
 
 // later use map funtions to map the card props and stuff  
 const QUERY_ALL_USERS = gql`
@@ -171,9 +172,11 @@ export default function Buy() {
         <button className="doi5" onClick={()=>{s5(!o5)}}><i class="fa-solid fa-caret-down"></i> </button> 
         <button className="sbtn" onClick={handleclearclick}>Clear Filters</button>
      </div> 
-     {/* The dropdown stuff ends here and the buying are and maps areas starts here */}
+     {/* The dropdown stuff ends here and the buying area and maps areas starts here */}
         <div className="whole" >
-          <div className="mapsbody">@ Google Maps</div>
+          <div className="mapsbody">
+            <img className="mapsimg" src={maps} alt="Google maps here" ></img>
+          </div>
           <div className="buybody"> 
              {data && data.arghome.map((w)=>{return<Card {...w}></Card>})}
           </div>
