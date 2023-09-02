@@ -5,8 +5,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center; 
-    background-image: url("/Users/tashwinsj/Desktop/devp/p1 real estate/client/src/assets/living.jpg");
-     background-size: cover;
+    background-image: url("https://wallpaperaccess.com/full/259894.jpg");
+    background-size:100%; 
+    background-position:0px -300px;
     background-repeat: no-repeat;  
 
  
@@ -16,9 +17,9 @@
     font-family: 'Bagel Fat One', cursive;
 font-family: 'Patrick Hand', cursive;
 font-family: 'Rubik', sans-serif; 
-color : black ;   
+color : rgb(255, 255, 255) ;   
 font-weight: 600;
-text-shadow: 5px 5px 10px ;
+text-shadow: 5px 5px 4px black;
 }
 .sbox{
     border:  none;
